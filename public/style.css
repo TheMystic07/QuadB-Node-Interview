@@ -1,0 +1,145 @@
+/* public/style.css */
+/* public/style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0A0F18;
+    color: #E6E8EC;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #131A26;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1 {
+    color: #26C6DA;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.price-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.price-change {
+    text-align: center;
+}
+
+.price-change span {
+    display: block;
+    font-size: 1.5rem;
+}
+
+.price-change small {
+    color: #E6E8EC;
+}
+
+.connect-telegram {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #26C6DA;
+    color: #0A0F18;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.connect-telegram:hover {
+    background-color: #1FA3B5;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0A0F18;
+    color: #E6E8EC;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #131A26;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #26C6DA;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #1F2A38;
+    color: #E6E8EC;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 0.9rem;
+}
+
+td {
+    background-color: #1A2330;
+    border-bottom: 1px solid #1F2A38;
+    font-size: 0.9rem;
+}
+
+tr:nth-child(even) td {
+    background-color: #131A26;
+}
+
+tr:hover td {
+    background-color: #0E1622;
+}
+
+@media (max-width: 768px) {
+    th, td {
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+}
+
+.connect-telegram {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #26C6DA;
+    color: #0A0F18;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.connect-telegram:hover {
+    background-color: #1FA3B5;
+    color: #E6E8EC;
+}

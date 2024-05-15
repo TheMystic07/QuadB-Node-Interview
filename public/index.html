@@ -1,0 +1,62 @@
+<!-- public/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Price Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="container">
+                <h1>HODLINFO</h1>
+                <div class="price-info">
+                    <div class="price-change">
+                        <span>0.1 %</span><br>
+                        <small>5 Mins</small>
+                    </div>
+                    <div class="price-change">
+                        <span>0.96 %</span><br>
+                        <small>1 Hour</small>
+                    </div>
+                    <div class="price-change">
+                        <span>₹<span id="best-price">26,56,110</span></span><br>
+                        <small>Best Price to Trade</small>
+                    </div>
+                    <div class="price-change">
+                        <span>2.73 %</span><br>
+                        <small>1 Day</small>
+                    </div>
+                    <div class="price-change">
+                        <span>7.51 %</span><br>
+                        <small>7 Days</small>
+                    </div>
+                </div>
+                <button class="connect-telegram">Connect Telegram</button>
+            </div>
+        </div>
+
+        <h1>Best Price to Trade</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Platform</th>
+                    <th>Last Traded Price</th>
+                    <th>Buy / Sell Price</th>
+                    <th>Volume</th>
+                    <th>Base Unit</th>
+                </tr>
+            </thead>
+            <tbody id="ticker-table">
+                <!-- Data will be populated here by script.js -->
+            </tbody>
+        </table>
+        <a href="https://t.me/joinchat/XXXXXXX" class="connect-telegram">Connect Telegram</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
